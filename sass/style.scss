@@ -46,8 +46,17 @@ h1, h2, h3, h4, h5, h6 {
     width: 33.3%;
 }
 
+.fourth-width {
+    width: 25%;
+}
+
 a {
     font-family: $heading-font;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: $yellow;
 }
 
 /* Header Styles */
@@ -93,10 +102,6 @@ nav {
             font-weight: $bold;
             letter-spacing: .25rem;
             text-decoration: none;
-            text-transform: uppercase;
-        }
-        a:hover {
-            color: $yellow;
         }
 
 }
@@ -148,10 +153,9 @@ nav {
     a {
         color: $purple;
         text-decoration: none;
-        text-transform: uppercase;
     }
     a:hover {
-        color: $green;
+        color: $yellow;
         text-decoration: none;
     }
 }
@@ -161,7 +165,7 @@ nav {
 
 #about {
     background-color: $green;
-    height: 675px;
+    height: 600px;
     .full-width {
         margin: 0 auto;
         width: 75%;
@@ -185,7 +189,7 @@ nav {
         }
     }
     p {
-        padding: 0px 30px 0px 30px;
+        padding: 0px 30px 0px 0px;
         b {
             color: $purple;
             font-weight: $bold;

@@ -26,8 +26,15 @@ h1, h2, h3, h4, h5, h6 {
 .third-width {
   width: 33.3%; }
 
+.fourth-width {
+  width: 25%; }
+
 a {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase; }
+
+a:hover {
+  color: #fcca46; }
 
 /* Header Styles */
 header {
@@ -63,10 +70,7 @@ nav {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     letter-spacing: .25rem;
-    text-decoration: none;
-    text-transform: uppercase; }
-  nav a:hover {
-    color: #fcca46; }
+    text-decoration: none; }
 
 /* Portfolio */
 #work {
@@ -106,16 +110,15 @@ nav {
     border: 1px solid #a8aa6a; }
   #work a {
     color: #5e4278;
-    text-decoration: none;
-    text-transform: uppercase; }
+    text-decoration: none; }
   #work a:hover {
-    color: #a8aa6a;
+    color: #fcca46;
     text-decoration: none; }
 
 /* About Me */
 #about {
   background-color: #a8aa6a;
-  height: 675px; }
+  height: 600px; }
   #about .full-width {
     margin: 0 auto;
     width: 75%; }
@@ -135,7 +138,7 @@ nav {
     #about h3 span {
       color: white; }
   #about p {
-    padding: 0px 30px 0px 30px; }
+    padding: 0px 30px 0px 0px; }
     #about p b {
       color: #5e4278;
       font-weight: 700; }
