@@ -1,0 +1,47 @@
+/* Universal Colors & Fonts */
+
+$purple: #5e4278;
+$yellow: #fcca46;
+$green: #a8aa6a;
+$blue: #023e5b;
+$dark-green: #004346;
+
+$body-font: 'Gotu', sans-serif;
+$heading-font: 'Poppins', sans-serif;
+$bold: 700;
+$black: 900;
+$regular: 400;
+
+body {
+    color: $dark-green;
+    font-family: $body-font;
+    font-weight: $regular;
+}
+
+header {
+    height: 500px;
+}
+
+#work {
+    height: 900px;
+}
+
+#about {
+    height: 400px;
+}
+
+#contact {
+    height: 350px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.third-width {
+    width: 33.3%;
+}

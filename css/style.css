@@ -1,0 +1,28 @@
+/* Universal Colors & Fonts */
+body {
+  color: #004346;
+  font-family: "Gotu", sans-serif;
+  font-weight: 400; }
+
+header {
+  height: 500px; }
+
+#work {
+  height: 900px; }
+
+#about {
+  height: 400px; }
+
+#contact {
+  height: 350px; }
+
+.full-width {
+  width: 100%; }
+
+.half-width {
+  width: 50%; }
+
+.third-width {
+  width: 33.3%; }
+
+/*# sourceMappingURL=style.css.map */
