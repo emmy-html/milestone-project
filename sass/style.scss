@@ -6,7 +6,7 @@ $green: #a8aa6a;
 $blue: #023e5b;
 $dark-green: #004346;
 
-$body-font: 'Gotu', sans-serif;
+$body-font: 'Playfair Display', serif;
 $heading-font: 'Poppins', sans-serif;
 $bold: 700;
 $black: 900;
@@ -23,8 +23,9 @@ body {
 
 p {
     color: $dark-green;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0px 30px;
+    text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,6 +44,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .third-width {
     width: 33.3%;
+}
+
+a {
+    font-family: $heading-font;
 }
 
 /* Header Styles */
@@ -100,9 +105,9 @@ nav {
 
 #work {
     background-image: url('../img/purple-flower-01\.png');
-    background-position: left bottom;
+    background-position: -15% 105%;
     background-repeat: no-repeat;
-    background-size: 30%;
+    background-size: 50%;
     height: 1250px;
     margin: 50px 0px;
     h2 {
@@ -117,14 +122,14 @@ nav {
         line-height: .25rem;
         font-weight: $bold;
         text-transform: lowercase;
-        padding-left: 20px;
+        padding-left: 40px;
     }
     h4 {
         line-height: .25rem;
-        padding-left: 20px;
+        padding-left: 40px;
     }
     p {
-        padding: 5px 0px 0px 20px;
+        padding: 5px 0px 0px 40px;
     }
     .full-width {
         flex-direction: row;
@@ -156,7 +161,7 @@ nav {
 
 #about {
     background-color: $green;
-    height: 700px;
+    height: 675px;
     .full-width {
         margin: 0 auto;
         width: 75%;
@@ -168,9 +173,90 @@ nav {
         text-align: center;
         text-transform: uppercase;
     }
+    h3 {
+        color: $blue;
+        font-weight: $bold;
+        line-height: 1.5rem;
+        padding-bottom: 25px;
+        text-align: center;
+        text-transform: lowercase;
+        span {
+            color: white;
+        }
+    }
+    p {
+        padding: 0px 30px 0px 30px;
+        b {
+            color: $purple;
+            font-weight: $bold;
+        }
+    }
+    img#portrait {
+        width: 80%;
+        border: 30px solid white;
+    }
+    ul {
+        list-style-type: none;
+    }
+    li {
+        color: $purple;
+    }
 }
+
+/* Contact Me */
 
 #contact {
-    height: 350px;
+    margin-top: -25px;
+    background-color: $blue;
+    background-image: url('../img/green-flower.png');
+    background-position: 112%;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    height: 400px;
+    h2 {
+        color: $yellow;
+        font-size: 28px;
+        padding: 50px 0px 25px 0px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .full-width {
+        width: 75%;
+        margin: 0 auto;
+    }
+    h3 {
+        color: white;
+        font-weight: $bold;
+        line-height: .25rem;
+        padding-bottom: 20px;
+        text-align: center;
+        text-transform: lowercase;
+    }
+    p {
+        color: white;
+        text-align: center;
+        padding: 0px;
+    }
+    img {
+        padding-right: 20px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $yellow;
+    }
 }
 
+/* Footer */
+
+footer {
+    background-color: $blue;
+    color: $yellow;
+    text-transform: lowercase;
+    h3 {
+        width: 100%;
+        text-align: center;
+    }
+}
