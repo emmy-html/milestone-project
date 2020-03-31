@@ -72,7 +72,7 @@ nav {
     letter-spacing: .25rem;
     text-decoration: none; }
 
-/* My Work */
+#work, #about
 #work {
   background-image: url("../img/purple-flower-01.png");
   background-position: -15% 105%;
@@ -80,37 +80,47 @@ nav {
   background-size: 50%;
   height: 1250px;
   margin: 50px 0px; }
+  #work h2, #about
   #work h2 {
     color: #023e5b;
     font-size: 28px;
     margin: 0px 0px 50px 0px;
     text-align: center;
     text-transform: uppercase; }
+  #work h3, #about
   #work h3 {
     color: #a8aa6a;
     line-height: .25rem;
     font-weight: 700;
     text-transform: lowercase;
     padding-left: 40px; }
+  #work h4, #about
   #work h4 {
     line-height: .25rem;
     padding-left: 40px; }
+  #work p, #about
   #work p {
     padding: 5px 0px 0px 40px; }
+  #work .full-width, #about
   #work .full-width {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto;
     padding: 0px 0px 50px 0px;
     width: 75%; }
+  #work .half-width, #about
   #work .half-width {
     padding: 0px 0px 50px 0px; }
+  #work img#portfolio, #about
   #work img#portfolio {
     width: 100%;
-    border: 1px solid #a8aa6a; }
+    border: 2px solid #a8aa6a;
+    border-radius: 10px; }
+  #work a, #about
   #work a {
     color: #5e4278;
     text-decoration: none; }
+  #work a:hover, #about
   #work a:hover {
     color: #fcca46;
     text-decoration: none; }
@@ -144,7 +154,8 @@ nav {
       font-weight: 700; }
   #about img#portrait {
     width: 80%;
-    border: 30px solid white; }
+    border: 30px solid white;
+    border-radius: 10px; }
   #about ul {
     list-style-type: none; }
   #about li {

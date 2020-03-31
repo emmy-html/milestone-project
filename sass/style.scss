@@ -106,6 +106,8 @@ nav {
 
 }
 
+#work, #about
+
 /* My Work */
 
 #work {
@@ -148,7 +150,8 @@ nav {
     }
     img#portfolio {
         width: 100%;
-        border: 1px solid $green;
+        border: 2px solid $green;
+        border-radius: 10px;
     }
     a {
         color: $purple;
@@ -198,6 +201,7 @@ nav {
     img#portrait {
         width: 80%;
         border: 30px solid white;
+        border-radius: 10px;
     }
     ul {
         list-style-type: none;
